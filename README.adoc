@@ -40,6 +40,7 @@ ifndef::uk[]
 :assignment: Informations générales
 :requirements: Pré-requis
 :initial: Tâche initiale
+:allerPlusLoin: Pour Aller plus loin...
 endif::[]
 //------------------------------------ 
 
@@ -543,15 +544,13 @@ setArme(ComportementArme a) {
   this.arme = a;
 }
 -----
-====
 
-====
 .pass:[<i class="fa fa-github"></i>] commit/push
 [source,shell]
 ....
 fix #1.7 Adventure game
 ....
-====
+
 
 
 //----------------------------------------------------- Correction -------------------------
