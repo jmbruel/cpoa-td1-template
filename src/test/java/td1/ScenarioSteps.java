@@ -43,7 +43,5 @@ public class ScenarioSteps {
         Class classTemp = Class.forName(string);
         Object obj = classTemp.newInstance();
         this.canard = (Canard)obj;
-        //this.canard = new Canard(classTemp.newInstance();
-        // this.canard = new classTemp();
     }
 }

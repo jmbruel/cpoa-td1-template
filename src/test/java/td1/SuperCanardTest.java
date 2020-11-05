@@ -41,7 +41,7 @@ public class SuperCanardTest {
     public void unColvertEstUnColvert() {
         Colvert coincoin = new Colvert();
 
-        String expected = "Je suis un Colvert!";
+        String expected = "Je suis un Canard!";
         assertEquals(expected, expected, coincoin.afficher());
     }
 

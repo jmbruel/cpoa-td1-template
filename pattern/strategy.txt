@@ -1,5 +1,5 @@
-*Strategy* defines a familly of algorithms/features/behaviour, implements each of them and makes them interchangeable.
-It allows the algorithm to be independant of the "clients" that use it.
+*Strategie* définit une famille d'algorithmes/caractéristiques/comporteents, chacun implémentés séparéments et rendus interchangeable.
+Il permet à ces algorithmes d'être indépendants des _clients_ qui les utilisent.
 
-ifndef::slides[.UML model of _Strategy_]
+ifndef::slides[.Modèle UML de _Strategie_]
 image::strategy.svg[]

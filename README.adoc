@@ -60,15 +60,15 @@ endif::[]
 //------------------------------------ 
 == {assignment}
 
-{lastName}:: Doe
+{lastName}:: BRUEL
 
-{firstName}:: John
+{firstName}:: Jean-Michel
 
 {group} #::
 
 [%interactive]
-- [ ] {Enseignants}
-- [x] 1
+- [x] {Enseignants}
+- [ ] 1
 - [ ] 2
 - [ ] 3
 - [ ] 4
@@ -270,13 +270,11 @@ image::autograding.png[]
 endif::[]
 
 //----------------------------- Question ------------------
-//------ No UK/FR after this point !!!!! ------------------
-//----------------------------- Question ------------------
 .*TODO*:
 [WARNING]
 ====
 [%interactive]
-* [ ] Consyruisez l'application en utilisant `maven`:
+* [ ] Construisez l'application en utilisant `maven`:
 +
 .pass:[<i class="fa fa-github"></i>] commit/push
 [source,shell]
@@ -379,7 +377,7 @@ définir le comportement de `Canard` ? (Plusieurs choix possibles.) :
 - [ ] Le même code est dupliqué (réécrit) entre les sous-classes.
 - [ ] Les changements de méthodes de comportements au moment de l'exécution sont difficiles.
 - [ ] Nous ne pouvons pas avoir de canards qui dansent.
-- [ ] Il est difficile de connaître tous les comportements des canards
+- [ ] Il est difficile de connaître tous les comportements des canards.
 - [ ] Les canards ne peuvent pas voler et cancaner en même temps.
 - [ ] Les modifications peuvent affecter involontairement d'autres canards.
 ====
@@ -469,8 +467,6 @@ qui permettent au run-time de modifier le comportement de vol.
 fix #1.6 Implementing outside behavior
 ....
 
-====
-
 ==== Résumé et mise en oeuvre
 
 Il est temps maintenant de prendre du recul et d'expérimenter les
@@ -550,8 +546,7 @@ setArme(ComportementArme a) {
 ....
 fix #1.7 Adventure game
 ....
-
-
+====
 
 //----------------------------------------------------- Correction -------------------------
 ifdef::prof[]
@@ -592,6 +587,7 @@ et une implémentation du type :
 -----
 abstract public class Canard implements ComportementVol {...}
 -----
+====
 
 
 
@@ -599,7 +595,7 @@ abstract public class Canard implements ComportementVol {...}
 
 
 //------------------------------------ 
-== Contributors
+== Contributeurs
 //------------------------------------ 
 
 - mailto:jbruel@gmail.com[Jean-Michel Bruel]
