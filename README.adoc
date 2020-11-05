@@ -1,6 +1,7 @@
-= Design Patterns - TD 1
+= Design Patterns - TD
 J.-M. Bruel <jbruel@gmail.com>
 v20.1 {localdate}
+:thistitle: TD1
 :imagesdir: images
 //------------------------- variables de configuration
 // only used when master document
@@ -29,6 +30,7 @@ ifdef::uk[]
 :assignment: Assignment info
 :requirements: Requirements
 :initial: Initial tasks
+:allerPlusLoin: Still hungry?...
 endif::[]
 ifndef::uk[]
 :lastName: NOM
@@ -45,17 +47,17 @@ endif::[]
 //------------------------------------ 
 
 ifdef::uk[]
-endif::[]
-ifndef::uk[]
-endif::[]
-
-
-ifdef::uk[]
-TD1 initial code.
+== {thistitle} initial code
 This is a template for the students' assignments.
+
+TIP: Course material: pass:[<i class="fa fa-mobile"></i> <i class="fa fa-tablet"></i> <i class="fa fa-laptop"></i>] http://bit.ly/jmb-cpoa
 endif::[]
 ifndef::uk[]
+== Code initial pour le {thistitle}
+
+TIP: Rappel du cours : pass:[<i class="fa fa-mobile"></i> <i class="fa fa-tablet"></i> <i class="fa fa-laptop"></i>] http://bit.ly/jmb-cpoa
 endif::[]
+
 
 //------------------------------------ 
 == {assignment}
